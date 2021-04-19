@@ -1,0 +1,3 @@
+CREATE TABLE DHT11 (datetime text, humedad real, temperatura real);
+CREATE TABLE DZ0325 (datetime text, humedad_terreno integer);
+CREATE TABLE BMP180 (datetime text, temperatura integer, presion integer);
