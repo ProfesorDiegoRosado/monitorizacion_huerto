@@ -1,0 +1,155 @@
+
+
+.container {
+    background-color: #eff2f5;
+    color: #3b3838;
+}
+
+div .icon {
+    display: inline;
+}
+
+
+.text_description {
+    /* font-style: italic; */
+    font-family: 'Open Sans', sans-serif;
+    color: #848282;
+}
+
+.text_shadow_4 {
+    text-shadow: -4px 4px 4px #aaa;
+}
+
+.text_shadow_3 {
+    text-shadow: -3px 3px 3px #aaa;
+}
+
+.text_shadow_2 {
+    text-shadow: -2px 2px 2px #aaa;
+}
+
+.text_shadow_1 {
+    text-shadow: -1px 1px 1px #aaa;
+}
+
+
+.HelioEsfera_logo_name_holder {
+    padding: 35px;
+    margin: auto 0;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.image_shadow {
+    /*-webkit-filter: drop-shadow( -4px 4px 3px rgba(0, 0, 0, .7)); */
+    filter: drop-shadow( -4px 4px 4px rgba(0, 0, 0)); 
+}
+
+.title_1 {
+    padding: 35px;
+    margin: auto 0;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-size: 3.5rem;
+    color: #ffcc00;
+}
+
+.title_2 {
+    padding: 25px 0;
+    margin: auto 0;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-size: 2.5rem;
+    color: #6FBE41;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.table_header {
+    background-color: #f3fced;
+}
+
+.table_header_2 {
+    background-color: #f7f5e8;
+}
+
+
+
+.card-deck .card {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    border-radius: 1rem;
+    margin-bottom: 30px;
+    min-width: 20rem;
+}
+
+.card-main-image-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body-container {
+    display: inline-table;
+}
+
+.card-main-value {
+    font-size: 4rem;
+    color: blue;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    padding: 0.5rem;
+}
+.card-main-units {
+    padding: 0.5rem;
+}
+
+.footer .footer-class {
+    padding: 7em 0;
+    background: #6fbe41;
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+}
+
+.footer-social {
+    padding: 0;
+    margin: 0;
+}
+
+.ul-footer-social {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ul-footer-social a {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ul-footer-social li {
+    margin: 0.5rem;
+}
+
+.inherit-color {
+    color: inherit;
+}
+
+.display-flex {
+    display: flex;
+}
