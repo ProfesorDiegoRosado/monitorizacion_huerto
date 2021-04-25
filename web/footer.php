@@ -5,13 +5,6 @@
   $social_text = "Monitorización de un huerto en tiempo real (IES Arroyo de la  Miel)";
   $social_url = $current_url;
 
-  /*
-  echo "URI: " . $current_url . "<br/>";
-  echo "_SERVER[HTTP_HOST]: " . $_SERVER['HTTP_HOST'] . "<br/>";
-  echo "CURRENT URL: " . $current_url . "<br/>";
-  echo "SOCIAL TEXT: " . $social_text . "<br/>";
-  echo "SOCIAL: " . $social_url . "<br/>";
-  */
 
   // whastapp
 //  $whatsapp_href="https://wa.me/?text=" . urlencode("{$social_url}"); //{$social_text}
