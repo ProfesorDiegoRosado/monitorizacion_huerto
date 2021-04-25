@@ -1,5 +1,5 @@
 
-<?php 
+<?php
   $uri = $_SERVER['REQUEST_URI']; //substr($_SERVER['REQUEST_URI'], 1, strlen($_SERVER['REQUEST_URI']));
   $current_url = "https://{$_SERVER['HTTP_HOST']}{$uri}";
   $social_text = "Monitorización de un huerto en tiempo real (IES Arroyo de la  Miel)";
@@ -14,19 +14,15 @@
   */
 
   // whastapp
-//  $whatsapp_href="https://wa.me/?text=" . urlencode("{$social_url}"); //{$social_text} 
+//  $whatsapp_href="https://wa.me/?text=" . urlencode("{$social_url}"); //{$social_text}
   $whatsapp_href = "whatsapp://send?text=" . urlencode("$social_text \n$social_url");
 
   // telegram
-  $telegram_href = "tg://msg?text=" . urlencode("$social_text\n$social_url"); 
+  $telegram_href = "tg://msg?text=" . urlencode("$social_text\n$social_url");
 
   // twitter
   // http://twitter.com/share?text=text goes here&url=http://url goes here&hashtags=hashtag1,hashtag2,hashtag3
-  $twitter_href = "https://twitter.com/share?text=@HelioEsfera,%20"  . urlencode($social_text) . "&url=" . urlencode($social_url) . "&hashtags=helioesfera,heliotool,autoconsumo,herramienta";
-
-  // linkedin
-  // https://www.linkedin.com/shareArticle?mini=true&url=http://developer.linkedin.com&title=LinkedIn%20Developer%20Network&summary=My%20favorite%20developer%20program&source=LinkedIn
-  $linkedin_href = "https://www.linkedin.com/shareArticle?mini=true&url=" . urlencode($social_url) . "&summary=" . urlencode($social_text) . "&source=HelioEsfera";
+  $twitter_href = "https://twitter.com/share?text="  . urlencode($social_text) . "&url=" . urlencode($social_url) . "&hashtags=monitorizacion,huerto,arduino,raspberrypi";
 
   // facebook
   // <a href="https://www.facebook.com/sharer/sharer.php?u=#url" target="_blank">Share</a>
@@ -53,4 +49,3 @@
     </div>
   </div>
 </footer>
-
