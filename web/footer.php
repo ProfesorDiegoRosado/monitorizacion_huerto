@@ -36,9 +36,7 @@
             <li><a href="<?php echo $whatsapp_href; ?>"><i class="fab fa-whatsapp"></i></a></li>
             <li><a href="<?php echo $telegram_href; ?>"><i class="fab fa-telegram"></i></a></li>
             <li><a href="<?php echo $twitter_href; ?>"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="<?php echo $linkedin_href; ?>"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="<?php echo $facebook_href; ?>"><i class="fab fa-facebook"></i></a></li>
-            <!-- <li><a href="#"><i class="print"></i></a></li> -->
           </ul>
       </div>
     </div>
