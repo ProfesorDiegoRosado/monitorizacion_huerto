@@ -4,6 +4,10 @@
 #include <Wire.h>
 // DHT11
 #include <DHT.h>
+#include <arduino-timer.h>
+
+// Definition of timer
+auto timer = timer_create_default();
 
 // You will need to create an SFE_BMP180 object, here called "pressure":
 SFE_BMP180 pressure;
@@ -129,9 +133,12 @@ void setup()
   start_BMP180();
   // Comenzamos el sensor DHT
   dht.begin();
+
+  // call read loop every DELAY_TIME
+  timer.every(DELAY_TIME, read_loop);
 }
 
-void loop()
+bool read_loop(void *)
 {
 
   Serial.print("{\"lectura\":[");
@@ -144,5 +151,10 @@ void loop()
   read_BMP180();
   Serial.println("]}");
 
-  delay(DELAY_TIME);  // Pause for DELAY_TIME milliseconds.
+  //delay(DELAY_TIME);  // Pause for DELAY_TIME milliseconds.
+  return true;
+}
+
+void loop() {
+  timer.tick();
 }

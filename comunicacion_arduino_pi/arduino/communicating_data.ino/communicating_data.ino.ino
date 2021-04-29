@@ -9,7 +9,7 @@
 SFE_BMP180 pressure;
 
 // Constatst
-#define DELAY_TIME 5000
+#define DELAY_TIME 300000   //  5 minutes
 #define ALTITUDE 300.0 // Altitude of SparkFun's HQ in Boulder, CO. in meters
 // Definimos el pin digital donde se conecta el sensor
 #define DHTPIN 2
