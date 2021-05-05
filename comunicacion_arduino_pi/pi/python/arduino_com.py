@@ -6,10 +6,6 @@ ser = serial.Serial("/dev/ttyACM0", baudrate=9600) #Modificar el puerto serie de
 
 try:
     while True:
-        #comando = "on" + "\n"
-        #comandoBytes = comando.encode()
-        #ser.write(comandoBytes)
-        #time.sleep(0.1)
         read = ser.readline()
         print("Leido: " + str(read))
         data = json.loads(read[0:-2])
